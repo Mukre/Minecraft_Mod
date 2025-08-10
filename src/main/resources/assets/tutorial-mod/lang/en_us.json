@@ -1,5 +1,8 @@
 {
   "item.tutorial-mod.teque_teque": "Teque Teque",
   "item.tutorial-mod.teque_teque_pill": "Teque Teque Pill",
-  "item.tutorial-mod.teque_teque_block": "Teque Teque Block"
+  "item.tutorial-mod.teque_teque_block": "Teque Teque Block",
+
+  "itemGroup.tutorialmod.teque_teque_items": "Teque Teque Items",
+  "itemGroup.tutorialmod.teque_teque_blocks": "Teque Teque Blocks"
 }
