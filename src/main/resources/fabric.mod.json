@@ -1,37 +1,30 @@
 {
-	"schemaVersion": 1,
-	"id": "tutorial-mod",
-	"version": "${version}",
-	"name": "Tutorial Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/tutorial-mod/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"net.mauricio.tutorialmod.TutorialMod"
-		],
-		"fabric-datagen": [
-			"net.mauricio.tutorialmod.TutorialModDataGenerator"
-		]
-	},
-	"mixins": [
-		"tutorial-mod.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.21.8",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+  "schemaVersion": 1,
+  "id": "tutorial-mod",
+  "version": "${version}",
+  "name": "Tutorial Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": ["Me!"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/tutorial-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.mauricio.tutorialmod.TutorialMod"],
+    "fabric-datagen": ["net.mauricio.tutorialmod.TutorialModDataGenerator"],
+    "client": ["net.mauricio.tutorialmod.TutorialModClient"]
+  },
+  "mixins": ["tutorial-mod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
 }
